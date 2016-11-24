@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".materialdesign">
+
+    <item
+        android:id="@+id/AddContactItem"
+        android:alphabeticShortcut="e"
+        android:icon="@android:drawable/ic_media_next"
+        android:orderInCategory="200"
+        android:title="ADD Contact"
+        android:titleCondensed="AddContactItem"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/first"
+        android:alphabeticShortcut="e"
+        android:icon="@android:drawable/ic_delete"
+        android:orderInCategory="100"
+        android:title="ADD Contact"
+        android:titleCondensed="AddContactItem"
+        app:showAsAction="always" />
+
+</menu>
